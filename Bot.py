@@ -8,7 +8,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # --------- #
 TOKEN = 'TOKEN'
-DB_PATH = 'dataBasedS.db'
+# create base
+DB_PATH = 'dataBase.db'
 CARDS_DIR = 'cards'
 db_lock = asyncio.Lock()
 
